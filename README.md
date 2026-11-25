@@ -34,6 +34,6 @@ All notebooks are in `notebooks/`.
 
 ## Reproduction status
 
-This private repository is a research archive, not an end-to-end runnable release. The notebooks retain Colab mounts, experiment-specific Drive paths, checkpoint dependencies and package-install cells. Configure these for your environment and select the intended experiment before running. Some cells refer to other notebooks using the original Drive layout; those references have not been refactored. GPU training and evaluation have not been rerun during portfolio preparation.
+This repository is a research archive, not an end-to-end runnable release. The notebooks retain Colab mounts, experiment-specific Drive paths, checkpoint dependencies and package-install cells. Configure these for your environment and select the intended experiment before running. Some cells refer to other notebooks using the original Drive layout; those references have not been refactored. GPU training and evaluation have not been rerun during portfolio preparation.
 
 Obtain authorized ACS/IPUMS and downstream evaluation data separately. The preprocessing notebook now reads a local extract using `ACS_DATA_PATH` (default `usa_00006.csv.gz`); the private Drive download link was removed. Raw records, checkpoints, notebook outputs and personal notebook metadata are excluded. The original report is unchanged. No blanket software license is added to this shared work.
